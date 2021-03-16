@@ -11,7 +11,7 @@ def redrawWindow(win,player):
    win.fill((255,255,255))
    player.draw(win)
    pygame.display.update()
-
+   
 class Player():
     def __init__(self,x,y,width,height,color):
         self.x = x
